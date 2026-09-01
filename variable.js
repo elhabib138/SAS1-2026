@@ -102,3 +102,18 @@ console.log ("surface est :",surface)
 console.log ("périmétre est :",périmétre)
 
 //challenge 12
+let nomb=+prompt("taper un nombre de 4 choffre :");
+let a=(nomb% 1000);
+let b=((nomb-a)/1000);
+console.log (b)
+let c = (a%100);
+let d=((a-c)/100);
+console.log (d)
+let e=(c%10);
+let n= ((c-e)/10);
+console.log (n)
+console.log(e)
+
+//challenge 13
+
+
