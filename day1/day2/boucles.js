@@ -71,16 +71,16 @@ const prompt =require("prompt-sync")();
 
 
 //challenge 18
-// let nombre = prompt("taper un nombre : ");
-// let i=10;
-// let nmb =""
-// let nmb1 =""
-// while (nombre>0){
-//     nmb =nombre % i
-//     nombre= (nombre-nmb)/10
-//     nmb1+=nmb
-// }
-// console.log("linverse : ",nmb1)
+let nombre = prompt("taper un nombre : ");
+let i=10;
+let nmb =""
+let nmb1 =""
+while (nombre>0){
+    nmb =nombre % i
+    nombre= (nombre-nmb)/10
+    nmb1+=nmb
+}
+console.log("linverse : ",nmb1)
 
 // challenge 19
 // let nombre = prompt("taper un nombre : ");
